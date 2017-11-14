@@ -78,5 +78,7 @@ func main() {
 
 		// print output
 		fmt.Printf("Terminate output: %s\n", out.String())
+	} else {
+		fmt.Printf("No instances found for termination!\n")
 	}
 }
